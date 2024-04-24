@@ -12,6 +12,7 @@ body{
     background-position: center;
     /* to get the prallex effect */
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 header{
     background-color:#333333 ;

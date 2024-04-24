@@ -23,6 +23,7 @@ header{
     text-align: center;
     color: white;
     padding: 10px 0;
+    z-index: 9;
 }
 h1{ 
     font-size: 36px; 
@@ -43,8 +44,8 @@ h1{
   transform: scale(1.1);
   /* box-shadow: allows to create a  three-dimensional effect when hovered over the cards  */
   box-shadow: 0 0 9px rgba(124, 126, 125, 0.4);
+  z-index: -1;
 }
-
   /* to reset the float efect */
 .clearfix{
     clear : both;
